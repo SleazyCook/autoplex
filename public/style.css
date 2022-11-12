@@ -35,10 +35,40 @@ footer {
   text-align: center;
 }
 
+/* ABOUT */
+
+#about-return {
+  color: black;
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#about-title {
+  font-size: x-large;
+}
+
 /* CONTACT */
+#contact-return {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#contact-return img {
+  align-self: center;
+  height: 150px;
+  width: 200px;
+}
+
 #contact-form{
   background-color: white;
   color: black;
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
 }
 
 #form-name{

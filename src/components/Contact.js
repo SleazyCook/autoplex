@@ -2,11 +2,13 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact-return">
+      <img alt="de la vega autoplex logo" src="https://i.imgur.com/GMkgmr4.png" />
       <form id="contact-form">
         <div id="form-name">
-          Contact Us
+          CONTACT US
         </div>
+        <br />
         <div id="form-flex-container">
           <div id="form-left-column">
             1615 W Expressway 83
