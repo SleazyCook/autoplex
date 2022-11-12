@@ -10,7 +10,8 @@ const App = () => {
     <div id="home-return">
 
       <header>
-        <h1>Delavega Autoplex (hidden header)</h1>
+        {/* hidden header for SEO */}
+        <h1>Delavega Autoplex</h1>
       </header>
 
       <Navbar />
