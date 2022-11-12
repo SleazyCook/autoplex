@@ -126,6 +126,7 @@ footer img {
   padding: 20px;
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #about-title {
@@ -133,6 +134,11 @@ footer img {
 }
 
 /* TESTIMONIALS */
+#testimonials-return {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .review-container {
   background-color: white;
   max-width: 500px;
@@ -169,7 +175,8 @@ footer img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #contact-return img {
@@ -209,4 +216,21 @@ footer img {
 #contact-submit-btn{
   background-color: black;
   color: white;
+}
+
+/* ACCOUNT */
+
+#account-return {
+  color: black;
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#account-title {
+  font-size: x-large;
 }

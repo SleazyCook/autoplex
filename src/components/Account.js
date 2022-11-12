@@ -2,8 +2,10 @@ import React from 'react';
 
 const Account = () => {
   return (
-    <div>
-      ACCOUNTS GO HERE.
+    <div id="account-return">
+      <p id="account-title">
+        ACCOUNTS GO HERE.
+      </p>
       <br />
       <br />
       Delavega Autoplex uses Clearent for managing your account and payment history.

@@ -19,10 +19,6 @@ const Home = () => {
           <a className="home-social-link" href="" target="_blank">
             <img alt="instagram icon link" src="https://i.imgur.com/fsR5M5g.png" />
           </a>
-
-          <br />
-          <br />
-          <br />
         </div>
       </div>
 
