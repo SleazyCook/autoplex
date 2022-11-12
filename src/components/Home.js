@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './About';
 
 const Home = () => {
   return (
@@ -36,6 +37,8 @@ const Home = () => {
           certified pre-owned vehicles today.
         </p>
       </div>
+
+      <About id="about" />
     </div>
 
 
