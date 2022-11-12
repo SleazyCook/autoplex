@@ -17,14 +17,16 @@ nav {
   background-color: #2f2e2e;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  opacity: .9;
   transition: 0.3s;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 10;
+  margin: -10px;
 }
 
 nav a {
+  opacity: .9;
   color: white;
   text-decoration: none;
   font-size: small;
@@ -34,17 +36,11 @@ nav a:hover {
   opacity: 0.6
 }
 
-/* HOME */
-#home-img{
-  display: flex;
-  justify-content: center;
-}
-
 /* FOOTER */
 footer {
   background-color: #2f2e2e;
   text-align: center;
-  opacity: 0.9;
+
   color: white;
   padding: 40px;
   font-family: Arial, Helvetica, sans-serif
@@ -52,16 +48,71 @@ footer {
 }
 
 #dev-credit {
-  font-family: 'Times New Roman', Times, serif
+  font-family: 'Times New Roman', Times, serif;
+  opacity: 0.9;
 }
 
 #author {
   font-family: 'Berkshire Swash';
+  opacity: 0.9;
 }
 
 footer img {
   height: 50px;
   width: auto;
+}
+
+/* HOME */
+#logo-background {
+  margin: -10px;
+  margin-bottom: -20px;
+  background-image: url("https://i.imgur.com/5crjtOr.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-color: red; */
+}
+
+#home-img{
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+}
+
+.home-social-container {
+  text-align: center;
+}
+
+.home-social-link {
+  height: 70px;
+  padding-bottom: 500px;
+}
+
+.intro {
+  height: 600px;
+  margin-top: -20px;
+  margin: -10px;
+  background-image: url("https://i.imgur.com/w3EpdHZ.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#sales-pitch {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  padding: 200px;
+
 }
 
 /* ABOUT */
