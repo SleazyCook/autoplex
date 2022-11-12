@@ -3,6 +3,7 @@
 body {
   color: pink;
   background-color: black;
+  /* margin-top: -10px; */
 }
 
 /* HEADER */
@@ -23,14 +24,15 @@ nav {
   align-items: center;
   justify-content: center;
   /* z-index: 10; */
-  margin: -10px -10px -10px -10px;
-  padding-top: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  /* padding-top: 10px; */
   position: fixed;
   width: 100vw;
 }
 
 .nav-items {
-  max-width: 1500px;
+  /* max-width: 1700px; */
   display: flex;
   justify-content: space-evenly;
   align-content: space-around;
@@ -93,7 +95,7 @@ footer img {
 #home-img{
   display: flex;
   justify-content: center;
-  padding: 200px;
+  padding: 210px;
 }
 
 .home-social-container {
@@ -129,22 +131,91 @@ footer img {
 
 }
 
+/* VEHICLES */
+/* #vehicles-return {
+  /* margin-top: 30px; */
+  /* height: 500px; */
+  /* margin-bottom: 30px; */
+
+
+#vehicles-return {
+  color: black;
+  background-color: pink;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* height: 500px; */
+  /* margin: auto; */
+  /* padding: 20px; */
+  text-align: center;
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
+}
+
+/* #about-title {
+  font-size: x-large;
+} */
+
+/* #vehicles-container {
+  border: 5px solid red;
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .review-img {
+  border-radius: 50%;
+  margin: 5px;
+  height: 200px;
+  width: auto;
+} */
+
+/* .vehicle{
+  padding: 5px;
+  color: red;
+} */
+
 /* ABOUT */
 
-#about-return {
+.about-return {
+
+  margin: -10px;
+  margin-bottom: -20px;
+  background-image: url("https://i.imgur.com/gGJSKOJ.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 250px;
+  padding: 250px;
+}
+
+
+#about-container {
   color: black;
   background-color: white;
   max-width: 500px;
   margin: auto;
   padding: 20px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  min-width: 300px;
 }
 
 #about-title {
   font-size: x-large;
-}
+} 
 
 /* TESTIMONIALS */
 #testimonials-return {
@@ -188,8 +259,11 @@ footer img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  background-color: black;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 #contact-return img {
@@ -231,47 +305,16 @@ footer img {
   color: white;
 }
 
-/* ACCOUNT */
 
-.about-return {
-
-  margin: -10px;
-  margin-bottom: -20px;
-  background-image: url("https://i.imgur.com/gGJSKOJ.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding: 250px;
-  padding: 250px;
-}
-
-
-#about-container {
-  color: black;
-  background-color: white;
-  max-width: 500px;
-  margin: auto;
-  padding: 20px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  min-width: 300px;
-}
-
-#about-title {
-  font-size: x-large;
-}
 
 /* ACCOUNT */
 
 #account-return {
   background-color: pink;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 #account-container {
