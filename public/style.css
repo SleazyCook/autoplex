@@ -1,0 +1,67 @@
+body {
+  color: pink;
+  background-color: black;
+}
+
+/* HEADER */
+header {
+  display: none;
+}
+
+/* NAVBAR */
+nav {
+  height: 60px;
+  margin-top: 0;
+  background-color: #2f2e2e;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HOME */
+#home-img{
+  display: flex;
+  justify-content: center;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+}
+
+/* CONTACT */
+#contact-form{
+  background-color: white;
+  color: black;
+}
+
+#form-name{
+  text-align: center;
+}
+
+#form-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#form-left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-submit-btn{
+  background-color: black;
+  color: white;
+}
