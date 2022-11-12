@@ -29,9 +29,11 @@ const App = () => {
 
         <br />
         <br />
-        &#169; 2019 by Delavega Autoplex.
+        &#169; 
+        <span id="copyright">2019 by Delavega Autoplex.</span>
         <br />
-        Developed by Drewford
+        <span id="dev-credit">Developed by</span> 
+        <span id="author"> Drewford</span>
       </footer>
 
     </div>
