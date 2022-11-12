@@ -246,8 +246,33 @@ footer img {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
+  min-width: 300px;
 }
 
 #about-title {
+  font-size: x-large;
+}
+
+/* ACCOUNT */
+
+#account-return {
+  background-color: pink;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#account-container {
+  color: black;
+  background-color: white;
+  max-width: 500px;
+  margin: auto;
+
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+
+#account-title {
   font-size: x-large;
 }
