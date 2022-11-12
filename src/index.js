@@ -10,6 +10,7 @@ import Vehicles from './components/Vehicles';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
+import Account from './components/Account';
 
 // create root and connect to HTML
 const appElement = document.getElementById('app');
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contact />
+      },
+      {
+        path: "account",
+        element: <Account />
       }
     ]
   }
